@@ -53,7 +53,7 @@ function Player({ filePath, song }) {
 
   return (
     <div className="music-player">
-      <audio src={filePath} ref={audioElement} controll=''></audio>
+      <audio src={filePath} ref={audioElement}></audio>
       <PlayerControls
         isPlaying={isPlaying}
         setIsPlaying={setIsPlaying}
